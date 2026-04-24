@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Configurações básicas da página -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título que aparece na aba do navegador -->
+  <title>Portfólio - Gabriel Nogueira</title>
+
+  <!-- Arquivo CSS externo -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Biblioteca de ícones -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Fundo com partículas -->
+  <div id="particles"></div>
+
+  <!-- Parte inicial do site -->
+  <header class="hero">
+    <div class="hero-text">
+      <p class="subtitle">PORTFÓLIO PROFISSIONAL</p>
+
+      <h1>Gabriel <span>Nogueira</span></h1>
+
+      <p class="description">
+        Supervisor Técnico • Eletrônica • Ciência da Computação
+      </p>
+
+      <!-- Botão que leva para a seção sobre -->
+      <button onclick="scrollToSection('sobre')">Saiba mais</button>
+    </div>
+
+    <!-- Foto principal -->
+    <div class="hero-image">
+      <img src="foto_gabriel.jpg" alt="Foto de Gabriel">
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Seção sobre mim -->
+    <section id="sobre" class="card">
+      <h2><i class="fa-solid fa-user"></i> Sobre Mim</h2>
+      <br>
+
+      <p>
+        Meu nome é <strong>Gabriel Nogueira dos Santos</strong>,
+        tenho 25 anos e sou de Passo Fundo - RS.
+      </p>
+
+      <br>
+
+      <p>
+        Atualmente atuo como <strong>Supervisor Técnico</strong>
+        na <strong>Biocare Tecnologia LTDA</strong>, empresa onde construí
+        minha trajetória profissional ao longo dos últimos 7 anos.
+      </p>
+
+      <br>
+
+      <p>
+        Iniciei minha carreira como
+        <strong>Técnico em Eletrônica Júnior</strong>,
+        desenvolvendo experiência em manutenção, diagnóstico e reparo
+        de equipamentos eletrônicos voltados para a área estética,
+        fisioterapia e hospitalar.
+      </p>
+
+      <br>
+
+      <p>
+        Com dedicação e constante evolução, tive a oportunidade
+        de crescer dentro da empresa e assumir a posição atual.
+      </p>
+
+      <br>
+
+      <p>
+        Atualmente curso <strong>Ciência da Computação</strong>,
+        buscando unir minha base em hardware com software
+        e desenvolvimento de sistemas.
+      </p>
+    </section>
+
+    <!-- Seção da trajetória -->
+    <section class="card">
+      <h2><i class="fa-solid fa-route"></i> Minha Trajetória</h2>
+      <br>
+
+      <p>
+        Minha história profissional começou na área técnica,
+        com foco em eletrônica e manutenção.
+      </p>
+
+      <br>
+
+      <p>
+        Ao longo dos anos, desenvolvi habilidades em análise
+        de falhas, testes de componentes, soldagem,
+        reparos e suporte técnico.
+      </p>
+
+      <br>
+
+      <p>
+        Paralelamente, passei a estudar programação
+        com Python, PHP, SQL, JavaScript, HTML e CSS.
+      </p>
+
+      <br>
+
+      <p>
+        Hoje busco crescer profissionalmente integrando
+        hardware, software e automação.
+      </p>
+    </section>
+
+    <!-- Formação -->
+    <section class="card">
+      <h2><i class="fa-solid fa-graduation-cap"></i> Formação Acadêmica</h2>
+      <br>
+
+      <p><strong>Ciência da Computação</strong> — Cursando</p>
+
+      <br>
+
+      <p>
+        <strong>Técnico em Eletrônica</strong> —
+        Instituto Estadual Cecy Leite Costa
+      </p>
+
+      <p>
+        Formação técnica com foco em circuitos eletrônicos,
+        manutenção, diagnóstico e reparo de equipamentos.
+      </p>
+
+      <br>
+
+      <p>
+        <strong>Ensino Médio</strong> —
+        Instituto Estadual Cecy Leite Costa
+      </p>
+    </section>
+
+    <!-- Cards menores -->
+    <section class="cards-grid">
+      <div class="mini-card">
+        <h3><i class="fa-solid fa-briefcase"></i> Experiência</h3>
+        <br>
+        <p>7 anos na Biocare Tecnologia LTDA.</p>
+        <p>Experiência em suporte técnico, eletrônica e supervisão.</p>
+      </div>
+
+      <div class="mini-card">
+        <h3><i class="fa-solid fa-microchip"></i> Projetos</h3>
+        <br>
+        <p>
+          Sistema interno de gestão para o setor de assistência técnica,
+          desenvolvido para centralizar manuais, informações técnicas,
+          esquemas elétricos e demais documentos utilizados no suporte
+          e manutenção de equipamentos.
+        </p>
+      </div>
+
+      <div class="mini-card">
+        <h3><i class="fa-solid fa-bullseye"></i> Objetivos</h3>
+        <br>
+        <p>
+          Novos projetos, desafios, certificações
+          e evolução profissional.
+        </p>
+      </div>
+    </section>
+
+    <!-- Perfil -->
+    <section class="card">
+      <h2><i class="fa-solid fa-user-tie"></i> Perfil Profissional</h2>
+      <br>
+      <p>• Perfil analítico e proativo</p>
+      <p>• Facilidade na resolução de problemas</p>
+      <p>• Liderança técnica</p>
+      <p>• Trabalho em equipe</p>
+      <p>• Aprendizado contínuo</p>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="card">
+      <h2><i class="fa-solid fa-laptop-code"></i> Skills</h2>
+      <br>
+
+      <div class="skills">
+        <span><i class="fa-brands fa-python"></i> Python</span>
+        <span><i class="fa-brands fa-php"></i> PHP</span>
+        <span><i class="fa-solid fa-database"></i> SQL</span>
+        <span><i class="fa-brands fa-js"></i> JavaScript</span>
+        <span><i class="fa-brands fa-html5"></i> HTML</span>
+        <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+        <span><i class="fa-solid fa-microchip"></i> ESP32</span>
+        <span><i class="fa-solid fa-screwdriver-wrench"></i> Eletrônica</span>
+      </div>
+    </section>
+
+    <!-- Endereço e contato -->
+    <section class="card">
+      <h2><i class="fa-solid fa-location-dot"></i> Endereço e Contato</h2>
+      <br>
+
+      <p>
+        <i class="fa-solid fa-map-pin"></i>
+        Passo Fundo - RS
+      </p>
+
+      <br>
+
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        gabriel.santos@hotmail.com
+      </p>
+
+      <br>
+
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        (54) 99156-5904
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Arquivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

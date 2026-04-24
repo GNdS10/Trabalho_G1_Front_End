@@ -1,0 +1,153 @@
+/* reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #020617, #0f172a, #1e293b);
+    color: white;
+    overflow-x: hidden;
+}
+
+/* fundo das partículas */
+#particles {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* parte principal do topo */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+/* texto principal */
+.hero-text {
+    max-width: 650px;
+}
+
+/* subtítulo */
+.subtitle {
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+/* título */
+.hero h1 {
+    font-size: 64px;
+}
+
+/* destaque do nome */
+.hero h1 span {
+    color: #94a3b8;
+}
+
+/* descrição */
+.description {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #cbd5e1;
+}
+
+/* botão */
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* efeito no botão */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* imagem */
+.hero-image img {
+    width: 320px;
+    height: 320px;
+    border-radius: 30px;
+    object-fit: cover;
+    animation: pulse 3s infinite;
+}
+
+/* cards */
+.card {
+    margin: 40px;
+    padding: 35px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    line-height: 1.8;
+}
+
+/* grade dos cards */
+.cards-grid {
+    display: flex;
+    gap: 20px;
+    margin: 40px;
+}
+
+/* card menor */
+.mini-card {
+    flex: 1;
+    padding: 30px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.06);
+    transition: 0.4s;
+}
+
+/* animação ao passar o mouse */
+.mini-card:hover {
+    transform: translateY(-10px);
+}
+
+/* habilidades */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* cada skill */
+.skills span {
+    padding: 10px 15px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 20px;
+}
+
+/* animação da foto */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ícones */
+h2 i,
+h3 i,
+.card p i {
+    margin-right: 8px;
+    color: #94a3b8;
+}
