@@ -1,7 +1,9 @@
 #  Portfólio Profissional
 
-Projeto desenvolvido em **HTML, CSS e JavaScript** com o objetivo de apresentar meu currículo e portfólio profissional de forma visual e organizada.
+Projeto desenvolvido em **HTML, CSS e JavaScript**, com o objetivo de apresentar meu currículo e portfólio profissional de forma visual e organizada.
 
-## Feito por
+##  Desenvolvido por
 **Gabriel Nogueira dos Santos**  
-**RA: 1127692**
+**RA:** 1127692  
+
+Aulas ministradas pelo **professor Jaison Schmidt**
